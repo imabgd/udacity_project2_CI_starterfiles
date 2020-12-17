@@ -26,3 +26,6 @@ jobs:
 
       - name: Run make command
         run: make hello
+      
+      - name: Run make Lint command
+        run: make lint
